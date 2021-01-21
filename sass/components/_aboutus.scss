@@ -1,0 +1,50 @@
+.section-aboutus{
+    
+        background-color: #eaeff5;
+     
+    margin-top: -2rem;
+    &__conitaner{
+        
+        padding:7rem;
+        //background: red;
+        
+              @include respond(tab-port){
+        
+        
+   text-align: center;
+   
+       
+   }
+        
+        
+        
+    }
+    
+    &__img{
+        
+        
+        border: 0;
+        background: none;
+        vertical-align: middle;
+    }
+    
+    &__para{
+        
+        color: #696a6b;
+      font-size: var(--font--normal);
+      //width:162.5;
+     font-weight: 500;
+        //padding: 5rem;
+   display: flex;
+    align-items: center;
+        justify-content: center;
+    }
+    
+    
+    &__image-content{
+        
+        padding: 5rem;
+        
+    }
+    
+}

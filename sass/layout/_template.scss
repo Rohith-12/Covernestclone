@@ -1,0 +1,174 @@
+.center-template{
+    
+    
+   
+    
+    margin: 10rem ;
+    
+    
+    
+    
+            @include respond(tab-port){
+        
+        
+margin: 0;
+  
+       
+   }
+      
+    
+    
+    &__content{
+        
+        //margin: 5rem;
+        border: 1px solid #d9d8d0;
+    background-color: #ecf8fd;
+    border-radius: 5px;
+    //height:100%;
+        background:#ecf8fd;
+        padding: 2rem;
+        
+        
+                @include respond(tab-port){
+        
+        
+margin-top: 10rem;
+  
+       
+   }
+      
+     
+        
+        
+        
+    }
+    
+    
+    
+   
+   &__contentterm{
+            
+            
+                          @include respond(tab-port){
+        
+margin-top: 10rem;
+       
+   }
+      
+            
+            
+        }
+        
+       
+        
+        
+  
+    
+    &__teritary-heading{
+    
+    
+      color: #52bceb;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    text-align: left;
+        
+                   @include respond(tab-port){
+        
+        
+text-align: center;
+  
+       
+   }
+        
+        
+    
+    }
+    
+    &__tetra-heading{
+        
+        
+    margin: 2rem 0 1rem 0;
+    color: #53bceb;
+    font-size: 1.7rem;
+        
+        
+                 @include respond(tab-port){
+        
+        
+text-align: center;
+  
+       
+   }
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+    
+    &__imgcont{
+        
+        text-align: center;
+    }
+    
+    &__imgitem{
+        
+        width: 70%;
+        
+    }
+    
+    &__para{
+        
+        font-size: 1.4rem;
+         
+        
+        
+    }
+    
+    &__list{
+         font-size: 1.4rem;
+        list-style-position: inside;
+       
+        
+        
+    }
+    
+    
+    
+    &__grid{
+        display: flex;
+        flex: 1;
+        justify-content: space-around;
+        
+        & img{
+            width: 16.66%;
+            
+            
+        }
+        
+        
+    }
+    
+    
+   
+    
+    
+    
+}
+
+
+
+
+#errmsg{
+    
+    margin-top: 0.5rem;
+    color: red;
+    //line-height: 2rem;
+    font-size: 1.4rem;
+    
+}

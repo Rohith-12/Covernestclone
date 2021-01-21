@@ -1,0 +1,39 @@
+.primary-bttn{
+    
+    
+    margin-top: 3rem;
+   
+    
+    
+    &__link{
+        
+        text-decoration: none;
+    padding: 1rem 1.6rem;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 2rem;
+    border: 2px solid #fff;
+    
+    transition: all .3s ease-in-out;
+   background-color: #53bceb;
+       
+         &:hover{
+            
+            background-color: #337ab7;
+        }
+        
+    }
+    
+}
+
+
+.INPUT-BTTN{
+    
+     padding: 0.5rem 1rem;
+    font-size: 1.8rem;
+    
+    
+    
+    
+}

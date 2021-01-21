@@ -1,0 +1,100 @@
+.center-template{
+    
+    
+    
+    
+    
+    &__contactus-content{
+        
+         display: flex;
+        
+        
+        
+    }
+    
+    &__container-floatleft{
+        
+        
+       width: 30%;
+        
+        
+        
+        
+    }
+    
+    &__contactuslist{
+        
+        
+        padding-left: 2rem;
+    }
+    
+    
+    
+    &__contactusitems{
+        
+        //text-align: center;
+     font-size: 1.4rem;
+    color:var(--section--plan-para-color);
+        
+    
+        
+        
+    }
+    
+    &__table{
+        
+        margin-top: 2rem; 
+        //height:150px;
+  overflow:scroll;  
+  //margin-top:20px;
+}
+        
+    
+    
+    
+    &__tablecontent{
+   border: 1px solid #dbe3e7;
+        
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 2rem;
+        
+        border-spacing: 0;
+    border-collapse: collapse;
+        //overflow: scroll;
+    }
+    
+    
+    
+    &__tableheading{
+        
+        
+        
+     background-color: #53bceb;
+    color: #fff;
+    font-weight: 600
+        
+    }
+    
+    &__tableitems{
+        
+        padding: 8px;
+    line-height: 1.42857143;
+    //vertical-align: top;
+    border-top: 1px solid #ddd;
+        
+        text-align: center;
+    }
+    
+    &__tablepictures{
+        
+        
+        width: 45%;
+        vertical-align: middle;
+        
+        
+    }
+    
+    
+    
+}
